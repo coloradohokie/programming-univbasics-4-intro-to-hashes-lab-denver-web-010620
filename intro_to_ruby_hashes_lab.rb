@@ -12,7 +12,7 @@ def pioneer
 end
 
 def id_generator
-  identfication = {:id => 456}
+  {:id => 456}
 end
 
 def my_hash_creator(key, value)
