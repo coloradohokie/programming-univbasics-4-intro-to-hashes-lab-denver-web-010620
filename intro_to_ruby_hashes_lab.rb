@@ -37,4 +37,4 @@ end
 =end
 
 def update_counting_hash(hash, key)
-  hash.fetch
+  hash.fetch(key, [, 1])
