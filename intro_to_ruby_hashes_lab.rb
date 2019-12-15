@@ -8,11 +8,11 @@ def my_hash
 end
 
 def pioneer
-  person = {:name "Grace Hopper"}
+  person = {:name => "Grace Hopper"}
 end
 
 def id_generator
-  identfication = {:id 456}
+  identfication = {:id => 456}
 end
 
 def my_hash_creator(key, value)
