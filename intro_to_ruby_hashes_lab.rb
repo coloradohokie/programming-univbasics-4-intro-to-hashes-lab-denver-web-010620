@@ -18,8 +18,7 @@ end
 def my_hash_creator(key, value)
   my_hash = {}
   my_hash[key] = value
-  puts my_hash
-  puts my_hash[key]
+  return my_hash
 end
 
 def read_from_hash(hash, key)
@@ -33,6 +32,3 @@ def update_counting_hash(hash, key)
     hash[key] = 1
   end
 end
-
-
-my_hash_creator(:name, "Mike")
