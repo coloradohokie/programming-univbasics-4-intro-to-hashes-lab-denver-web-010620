@@ -18,6 +18,7 @@ end
 def my_hash_creator(key, value)
   my_hash = {}
   my_hash[key] = value
+  puts my_hash
   puts my_hash[key]
 end
 
